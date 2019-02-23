@@ -1,4 +1,4 @@
-package ryan;
+package ryan.corepractice1;
 
 public class Class {
 

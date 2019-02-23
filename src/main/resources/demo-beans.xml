@@ -3,20 +3,20 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-        <bean id="student" class="ryan.Student">
+        <bean id="student" class="ryan.corepractice1.Student">
             <constructor-arg value="Hazel"/>
             <constructor-arg value="9.4"/>
             <constructor-arg ref="class"/>
         </bean>
         
-        <bean id="class" class="ryan.Class">
+        <bean id="class" class="ryan.corepractice1.Class">
             <property name="className" value="15T1"/>
         </bean>
 
-        <bean id="singleton" class="ryan.BeanScopeSingleton">
+        <bean id="singleton" class="ryan.corepractice1.BeanScopeSingleton">
         </bean>
 
-        <bean id="prototype" class="ryan.BeanScopePrototype" scope="prototype">
+        <bean id="prototype" class="ryan.corepractice1.BeanScopePrototype" scope="prototype">
         </bean>
 
 
