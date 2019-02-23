@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="collectionListBean" class="ryan.corepractice2.ColletionList">
+        <property name="books">
+            <list>
+                <value>The Fault In Our Star</value>
+                <value>Zero To One</value>
+                <value>Becoming Steve Jobs</value>
+                <value>The Power Of Habits</value>
+                <value>The Lean Startup</value>
+            </list>
+        </property>
+
+    </bean>
+
+</beans>
