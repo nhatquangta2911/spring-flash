@@ -13,7 +13,31 @@
                 <value>The Lean Startup</value>
             </list>
         </property>
+    </bean>
 
+    <bean id="collectionSetBean" class="ryan.corepractice2.CollectionSet">
+        <property name="books">
+            <set>
+                <value>The Fault In Our Star</value>
+                <value>Zero To One</value>
+                <value>Becoming Steve Jobs</value>
+                <value>The Power Of Habits</value>
+                <value>The Lean Startup</value>
+                <value>Zero To One</value>
+                <value>The Power Of Habits</value>
+            </set>
+        </property>
+    </bean>
+
+    <bean id="collectionMapBean" class="ryan.corepractice2.CollectionMap">
+        <property name="books">
+            <map>
+                <entry key="fault" value="The fault In Our Stars" />
+                <entry key="10" value="Zero To One" />
+                <entry key="habits" value="The Power Of Habits" />
+                <entry key="habits" value="Habits" />
+            </map>
+        </property>
     </bean>
 
 </beans>

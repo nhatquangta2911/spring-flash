@@ -12,6 +12,13 @@ public class Main {
         ColletionList colletionList = (ColletionList) applicationContext.getBean("collectionListBean");
         System.out.println(colletionList.getBooks().get(2).toString());
 
+        CollectionSet collectionSet = (CollectionSet) applicationContext.getBean("collectionSetBean");
+        System.out.println(collectionSet.getBooks().toString());
+
+        CollectionMap collectionMap = (CollectionMap) applicationContext.getBean("collectionMapBean");
+        System.out.println(collectionMap.getBooks().toString());
+
+
     }
 
 }
