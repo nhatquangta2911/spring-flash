@@ -1,4 +1,4 @@
-package ryan.corepractice1;
+package ryan.corepractice1_scope_and_reference;
 
 public class BeanScopePrototype {
 

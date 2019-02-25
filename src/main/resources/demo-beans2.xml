@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="collectionListBean" class="ryan.corepractice2.ColletionList">
+    <bean id="collectionListBean" class="ryan.corepractice2_collection.ColletionList">
         <property name="books">
             <list>
                 <value>The Fault In Our Star</value>
@@ -15,7 +15,7 @@
         </property>
     </bean>
 
-    <bean id="collectionSetBean" class="ryan.corepractice2.CollectionSet">
+    <bean id="collectionSetBean" class="ryan.corepractice2_collection.CollectionSet">
         <property name="books">
             <set>
                 <value>The Fault In Our Star</value>
@@ -29,7 +29,7 @@
         </property>
     </bean>
 
-    <bean id="collectionMapBean" class="ryan.corepractice2.CollectionMap">
+    <bean id="collectionMapBean" class="ryan.corepractice2_collection.CollectionMap">
         <property name="books">
             <map>
                 <entry key="fault" value="The fault In Our Stars" />
