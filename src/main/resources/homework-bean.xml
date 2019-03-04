@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:config="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <config:annotation-config/>
+    <config:component-scan base-package="ryan.spring_core_homework"/>
+
+    <bean id="bean1" class="ryan.spring_core_homework.Bean1"></bean>
+    <bean id="bean2" class="ryan.spring_core_homework.Bean2"></bean>
+    <bean id="anotherBean" class="ryan.spring_core_homework.AnotherBean"></bean>
 
 </beans>
